@@ -1,0 +1,35 @@
+############ SOFTWARE BINARIES ############
+
+# Quartus software location
+QUARTUS_BINARY_DIR=C:\intelFPGA_pro\23.3\quartus\bin64
+
+# Questa software location
+QUESTA_BINARY_DIR=C:\intelFPGA_pro\23.3\questa_fe\win64
+
+############ PROJECT PARAMETERS ############
+
+# project setup script name
+SETUP_SCRIPT=project_setup.tcl
+
+# desired Quartus project location
+QUARTUS_PROJECT_DIR=C:\Users\Brandon\Documents\Development_Drive\SSL\pcie_standalone
+
+# source code directory
+SOURCE_CODE_DIR=C:\Users\Brandon\Documents\Git_Repositories\ssl_accel
+
+# alternative RTL directories
+FSS_HDL_DIR=C:\Users\Brandon\Documents\Git_Repositories\fss_logic
+
+# Quartus PROJECT name
+PROJ_NAME=pcie_standalone
+
+############ SIMULATION PARAMETERS ###############
+
+# Simulation Artifacts directory
+SIM_ARTIFACTS_DIR=C:\Users\Brandon\Documents\Git_Repositories\ssl_accel\simulation
+
+# Simulation TCL script
+SIM_SCRIPT=simulation_setup.tcl
+
+# QSYS Simulation directory (simulation project)
+QSYS_SIMDIR=C:\Users\Brandon\Documents\Development_Drive\SSL\simulation_proj
